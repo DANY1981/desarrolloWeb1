@@ -1,0 +1,88 @@
+/* comentarios */
+
+
+
+/* 
+            ..........
+              css
+            .........
+            lenguaje de  estilos asociado a los lenguajes de
+             marcas. cascading Style sheet,con una finalidad
+             clara,la de definir estilos y representaciones en 
+             el Doctype.
+             Sintaxis General:
+             Elemento (Etiqueta){
+                atributo: valor;
+             }
+
+
+*/
+
+
+    h2{
+        color: crimson;
+        text-align:center ;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    /* La ,(coma) permitira agregar etiquetas que sumaran a los estilos
+     */
+
+
+h1{ 
+    color: firebrick; 
+    text-align: center; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+}
+div{ 
+    text-align: center;
+}
+/* 
+B.referncia de coneccion
+la coneccion de referncia entre estilos en css sera la archiconocida
+referencia,"class (.) ; Entendido como el selector de la referncia de 
+conexioncon el Doctype al cual accedera con el atributo class=""
+Sintaxis:
+.nombre_referencia{
+    atributo:valor;
+    */
+    .fondo{
+        background-image: url(../image/luna.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /* Ejercicio:
+
+    1 Encabezado poner mas grande
+    2 los parrafos justificados,con color blanco y letras mas grande.
+    3 una tabla fondo blanco en la barra de navegacion 
+    Inicio       Contacto        quienes somos
+    4 Final parrafo  con enlace vuestro telefono en el faldon
+     */
+     p¨{           
+        text-align: justify;
+        text-align: center;
+        color: whitesmoke;
+        font-size:20px ;
+
+     }
+     table{    
+         text-align: center;
+         margin: 0 auto;
+         background-color: azure;
+         font-size: 18px;
+
+        }
+        a{
+          text-emphasis-color: none;  
+                    }
+        img{   
+            width: 6%;
+            text-align: left;
+        } 
+        .Faldon{         
+            text-align: left;
+            text-align: center;
+        }           
+

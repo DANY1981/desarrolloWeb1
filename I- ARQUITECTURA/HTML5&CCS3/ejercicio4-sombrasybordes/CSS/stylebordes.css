@@ -1,0 +1,12 @@
+h2{
+text-align: center;
+}/* Extructura del div,podemos ver su presencia */
+div{
+    height:200px;
+    width:200px ;
+    background-color:cornflowerblue ;
+    margin: 20px;
+    display: inline-block;
+
+}
+/* Estructura de bordeado */

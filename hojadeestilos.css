@@ -1,0 +1,235 @@
+#titulos{
+    background-color:rgb(203, 208, 255);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20%;
+}
+#proyecto{
+    background-color:rgb(235, 235, 235);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#navegador ul{
+    list-style-type: none;
+    text-align: justify;
+    background-color: rgb(203, 208, 255);
+ }
+
+ .contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.portafolio{
+    background-color: rgb(159, 255, 234);
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgb(0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(231, 90%, 44%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hover-galeria img{
+    width: 50px;
+}
+.hover-galeria{
+    color: rgb(255, 255, 255);
+}
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+
+.clasificacion{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+} */
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.titul{
+    text-align: center;
+}
+/* css de las entidades colaboradoras
+*/
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.titul{
+    text-align: center;
+}
+.cards .card{
+    background: #b49afa;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    display: block;
+}
+.cards .card > .contenidotextocard{
+    width: 60%;
+    color: #ffffff;
+    
+}
+.cards .card > .contenidotextocard p{
+    font-weight: 300px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+/* CSS DE LAS PROTECTORAS*/
+.historiadelclub{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+.tituloppal{
+    color: #0004ff; 
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}.titulobajo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(49, 28, 236);
+}
+/* me odifica la letra tbn*/
+.imghistoria{
+   display: flex;
+   justify-content: space-evenly;
+}
+.contenidohistoria h3{
+   margin-bottom: 15px;
+}
+#boton{
+    background: #0925c7;
+    color: aliceblue;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6 px rgba(0, 0, 0, 5);
+    margin-right: 5px;
+}
+.contenidohistoria p{
+    padding: 0px 0px 30px 14px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+
+/*Información del incendio */
+.contenido{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background: #ffffff;
+    padding-bottom: 30px;
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+.servicio-ind{
+    width: 50%;
+}
+.servicio-ind >h3{
+    text-align: center;
+    background-color: rgb(65, 129, 224);
+}
+.servicio-ind >p{
+    text-align: justify;
+    background-color: rgb(128, 137, 223);
+}
+.servicio-cont .servicio-ind >img{
+    width: 100%;
+    align-items: center;
+}
+.servicio-ind h3{
+    margin-top: 10px 0;
+}
+/* css del pie de página */
+.piepagina{
+    background: rgb(168, 195, 231);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenidopie{
+display: flex;
+width: 90%;
+justify-content: center;
+margin: auto;
+padding-bottom: 50px;
+border-bottom: 1px solid #ccc;
+}
+.contenidopie >p{
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 3px solid #0033be;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
